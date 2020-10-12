@@ -7,6 +7,17 @@ set background=dark
 
 
 "---------------------------------"
+" Airline 
+"---------------------------------"
+
+let g:airline_theme="onedark"
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+if !exists('g:airline_symbols')
+    let g:airline_symbols = {}
+endif
+
+"---------------------------------"
 " Defx 
 "---------------------------------"
 
@@ -176,5 +187,7 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 let g:coc_global_extensions = [
             \ 'coc-json',
             \ 'coc-vimlsp',
+            \ 'coc-marketplace',
+            \ 'coc-python',
             \ ]
 
