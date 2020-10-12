@@ -9,16 +9,13 @@
 " Repository: http://github.com
 
 
-
-
-
-
 " # 常规配置 #
 source ~/.config/nvim/vim-setup.vim
 
 " # KeyMap #
 source ~/.config/nvim/vim-keymap.vim
 
-" # vim pulg #
-source ~/vim-plug.vim
+" # vim pulgins #
+source ~/.config/nvim/plug/plug-list.vim
+source ~/.config/nvim/plug/plug-setting.vim
 
