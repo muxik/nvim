@@ -7,15 +7,19 @@ set background=dark
 
 
 "---------------------------------"
-" Airline 
+" lightline 
 "---------------------------------"
-
-let g:airline_theme="onedark"
-let g:airline_powerline_fonts = 1
-let g:airline#extensions#tabline#enabled = 1
-if !exists('g:airline_symbols')
-    let g:airline_symbols = {}
-endif
+let g:lightline = {
+      \ 'colorscheme': 'wombat',
+      \'active': {
+      \   'left': [ [ 'mode', 'paste' ],
+      \             [ 'readonly', 'filename', 'modified', 'muxi_k' ] ]
+      \ },
+      \ 'component': {
+      \   'muxi_k': 'Muxi_k'
+      \ },
+      \ }
+set laststatus=2
 
 "---------------------------------"
 " Defx 

@@ -3,8 +3,8 @@ call plug#begin()
 " gruvbox 配色
 Plug 'morhetz/gruvbox'
 
-" airline 状态栏
-Plug 'vim-airline/vim-airline'
+" lightline 状态栏
+Plug 'itchyny/lightline.vim'
 
 " Defx 文件浏览器
 Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
