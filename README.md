@@ -14,8 +14,8 @@
 - nodejs 
 - npm
 - [NerdFonts](https://www.nerdfonts.com/)
-
-
+- fzf (文件查找)
+- ag  (搜索)
 
 ## 安装
 
@@ -27,7 +27,9 @@ $ git clone https://github.com/muxik/nvim.git
 $ cp nvim ~/.config 
 ```
 
+## 键盘映射
 
+TODO
 
 ## 语言支持
 
