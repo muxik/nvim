@@ -194,6 +194,7 @@ let g:coc_global_extensions = [
             \ 'coc-marketplace',
             \ 'coc-python',
             \ 'coc-git',
-            \ 'coc-emmet'
+            \ 'coc-emmet',
+            \ 'coc-phpls'
             \ ]
 

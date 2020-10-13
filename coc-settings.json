@@ -1,5 +1,8 @@
 {
     "json.format.enable": true,
+    "emmet.includeLanguages": {
+        "php": "php"
+    },
     "languageserver": {
         "intelephense": {
             "command": "intelephense",
