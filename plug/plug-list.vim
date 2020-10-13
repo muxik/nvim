@@ -27,6 +27,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" vim-startify
+Plug 'mhinz/vim-startify'
+
 call plug#end()
 
 
