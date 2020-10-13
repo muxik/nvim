@@ -34,7 +34,7 @@ nmap <silent> b <Plug>(coc-ci-b)
 "---------------------------------"
 map <silent> <C-p> :Files<CR>
 map <silent> <C-b> :Buffers<CR>
-map <silent> <C-P> :Ag<CR>
+map <silent> <C-M-p> :Ag<CR>
 
 "---------------------------------"
 " startify 
@@ -100,7 +100,7 @@ function! s:defx_mappings() abort
 	  nnoremap <silent><buffer><expr> p
 	  \ defx#do_action('paste')
 	  nnoremap <silent><buffer><expr> l
-	  \ defx#do_action('open')
+	  \ defx#do_action('multi', ['drop'])
 	  nnoremap <silent><buffer><expr> E
 	  \ defx#do_action('open', 'vsplit')
 	  nnoremap <silent><buffer><expr> P

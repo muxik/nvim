@@ -30,6 +30,9 @@ Plug 'junegunn/fzf.vim'
 " vim-startify
 Plug 'mhinz/vim-startify'
 
+" vim-pairs
+Plug 'jiangmiao/auto-pairs'
+
 call plug#end()
 
 
@@ -45,6 +48,6 @@ let g:coc_global_extensions = [
             \ 'coc-git',
             \ 'coc-emmet',
             \ 'coc-phpls',
-            \ 'coc-ci'
+            \ 'coc-ci',
             \ ]
 
