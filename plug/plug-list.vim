@@ -23,6 +23,10 @@ Plug 'kristijanhusak/defx-git'
 " Coc.nvim 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
+" fzf.vim
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+Plug 'junegunn/fzf.vim'
+
 call plug#end()
 
 
@@ -37,6 +41,7 @@ let g:coc_global_extensions = [
             \ 'coc-python',
             \ 'coc-git',
             \ 'coc-emmet',
-            \ 'coc-phpls'
+            \ 'coc-phpls',
+            \ 'coc-ci'
             \ ]
 
