@@ -1,3 +1,8 @@
+
+"
+" vim-plug 
+"
+
 call plug#begin()
 
 " gruvbox 配色
@@ -19,3 +24,19 @@ Plug 'kristijanhusak/defx-git'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 call plug#end()
+
+
+"
+" coc.nvim
+"
+
+let g:coc_global_extensions = [
+            \ 'coc-json',
+            \ 'coc-vimlsp',
+            \ 'coc-marketplace',
+            \ 'coc-python',
+            \ 'coc-git',
+            \ 'coc-emmet',
+            \ 'coc-phpls'
+            \ ]
+

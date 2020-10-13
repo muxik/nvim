@@ -188,13 +188,3 @@ endfunction
 autocmd CursorHold * silent call CocActionAsync('highlight')
 
 
-let g:coc_global_extensions = [
-            \ 'coc-json',
-            \ 'coc-vimlsp',
-            \ 'coc-marketplace',
-            \ 'coc-python',
-            \ 'coc-git',
-            \ 'coc-emmet',
-            \ 'coc-phpls'
-            \ ]
-
