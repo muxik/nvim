@@ -1,6 +1,6 @@
 
 "
-" vim-plug 
+" vim-plug
 "
 
 call plug#begin()
@@ -8,6 +8,9 @@ call plug#begin()
 " gruvbox 配色
 Plug 'morhetz/gruvbox'
 
+"---------------------------------"
+" COC.nvim
+"---------------------------------"
 " lightline 状态栏
 Plug 'itchyny/lightline.vim'
 
@@ -20,7 +23,7 @@ Plug 'kristijanhusak/defx-icons'
 " Defx Git Status
 Plug 'kristijanhusak/defx-git'
 
-" Coc.nvim 
+" Coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " fzf.vim
@@ -32,6 +35,9 @@ Plug 'mhinz/vim-startify'
 
 " vim-pairs
 Plug 'jiangmiao/auto-pairs'
+
+" vim-autoformat
+Plug 'Chiel92/vim-autoformat'
 
 call plug#end()
 
