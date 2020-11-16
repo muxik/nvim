@@ -1,5 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =4
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/muxik/.config/nvim/plug'
 let g:netrw_dirhist_4='/srv/http/qzt991/application/exam/controller'
 let g:netrw_dirhist_3='/etc/modules-load.d'
 let g:netrw_dirhist_2='/srv/nginx/blog/application/admin/view/article'
@@ -8,5 +9,4 @@ let g:netrw_dirhist_0='/srv/nginx/blog/application/admin'
 let g:netrw_dirhist_9='/srv/nginx/blog/application'
 let g:netrw_dirhist_8='/srv/nginx/blog/application/common'
 let g:netrw_dirhist_7='/srv/nginx/blog/application'
-let g:netrw_dirhist_6='/home/muxik/.config/bspwm'
-let g:netrw_dirhist_5='/home/muxik/github/mm131'
+let g:netrw_dirhist_6='/home/muxik/.config/nvim'

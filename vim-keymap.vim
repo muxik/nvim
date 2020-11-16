@@ -2,56 +2,56 @@
 "---------------------------------"
 " 文件操作
 "---------------------------------"
-map S :w<CR>
-map s <nop>
-map Q :q<CR>
-map R :source $MYVIMRC<CR>
+map <silent> S :w<CR>
+map <silent> s <nop>
+map <silent> Q :q<CR>
+map <silent> R :source $MYVIMRC<CR>
 
 
 "---------------------------------"
 " vim 分屏
 "---------------------------------"
 
-map sl :set splitright<CR>:vsp<CR>
-map sh :set nosplitright<CR>:vsp<CR>
-map sk :set nosplitbelow<CR>:sp<CR>
-map sj :set splitbelow<CR>:sp<CR>
+map <silent> sl :set splitright<CR>:vsp<CR>
+map <silent> sh :set nosplitright<CR>:vsp<CR>
+map <silent> sk :set nosplitbelow<CR>:sp<CR>
+map <silent> sj :set splitbelow<CR>:sp<CR>
 
 
 "---------------------------------"
 " 分屏光标移动
 "---------------------------------"
 
-map <LEADER>h <C-w>h
-map <LEADER>j <C-w>j
-map <LEADER>k <C-w>k
-map <LEADER>l <C-w>l
+map <silent> <LEADER>h <C-w>h
+map <silent> <LEADER>j <C-w>j
+map <silent> <LEADER>k <C-w>k
+map <silent> <LEADER>l <C-w>l
 
 
 "---------------------------------"
 " 分屏大小
 "---------------------------------"
 
-map <LEADER><up> :res -5<CR>
-map <LEADER><down> :res +5<CR>
-map <LEADER><left> :vertical resize+5<CR>
-map <LEADER><right> :vertical resize-5<CR>
+map <silent> <LEADER><up> :res -5<CR>
+map <silent> <LEADER><down> :res +5<CR>
+map <silent> <LEADER><left> :vertical resize+5<CR>
+map <silent> <LEADER><right> :vertical resize-5<CR>
 
 
 "---------------------------------"
 " 分屏方向
 "---------------------------------"
 
-map sv <C-w>t<C-w>H
-map sh <C-w>t<C-w>K
+map <silent> sv <C-w>t<C-w>H
+map <silent> sh <C-w>t<C-w>K
 
 
 "---------------------------------"
 " vim Tab
 "---------------------------------"
-map tu :tabe<CR>
-map tl :+tabnext<CR>
-map th :-tabnext<CR>
+map <silent> tu :tabe<CR>
+map <silent> tl :+tabnext<CR>
+map <silent> th :-tabnext<CR>
 
 
 "---------------------------------"
@@ -71,17 +71,17 @@ noremap <silent><leader>0 10gt<cr>
 "---------------------------------"
 " 光标移动
 "---------------------------------"
-noremap W 5j
-noremap E 5k
+noremap <silent> W 5j
+noremap <silent> E 5k
 
 "---------------------------------"
 " 设置 CTRL+HJKL 移动光标
 "---------------------------------"
-noremap <C-h> <left>
-noremap <C-j> <down>
-noremap <C-k> <up>
-noremap <C-l> <right>
-inoremap <C-h> <left>
-inoremap <C-j> <down>
-inoremap <C-k> <up>
-inoremap <C-l> <right>
+noremap  <silent> <C-h> <left>
+noremap  <silent> <C-j> <down>
+noremap  <silent> <C-k> <up>
+noremap  <silent> <C-l> <right>
+inoremap <silent> <C-h> <left>
+inoremap <silent> <C-j> <down>
+inoremap <silent> <C-k> <up>
+inoremap <silent> <C-l> <right>

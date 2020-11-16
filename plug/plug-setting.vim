@@ -103,7 +103,7 @@ let g:startify_lists = [
 "---------------------------------"
 
 " noremap ff :Defx -columns=icons:indent:filename:type<CR>
-noremap ff :<C-u>Defx -resume -toggle -buffer-name=tab`tabpagenr()`<CR>
+noremap <silent> ff :<C-u>Defx -resume -toggle -buffer-name=tab`tabpagenr()`<CR>
 
 
 call defx#custom#option('_', {
@@ -191,8 +191,9 @@ function! s:defx_mappings() abort
 endfunction
 
 
+"---------------------------------"
 " Git Status
-
+"---------------------------------"
 call defx#custom#column('git', 'indicators', {
             \ 'Modified'  : '',
             \ 'Staged'    : '',
@@ -263,7 +264,10 @@ endfunction
 
 
 "---------------------------------"
-" AutoFormat.nvim
+" AutoFormat
 "---------------------------------"
-
 nmap <silent> <M-f> :Autoformat<CR>
+
+"---------------------------------"
+" vem-tabline
+"---------------------------------"
