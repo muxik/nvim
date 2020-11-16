@@ -48,7 +48,7 @@ let g:coc_global_extensions = [
             \ 'coc-git',
             \ 'coc-emmet',
             \ 'coc-phpls',
-            \ 'coc-ci',
             \ 'coc-translator',
+            \ 'coc-ci'
             \ ]
 

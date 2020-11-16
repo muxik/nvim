@@ -18,4 +18,3 @@ source ~/.config/nvim/vim-keymap.vim
 " # vim pulgins #
 source ~/.config/nvim/plug/plug-list.vim
 source ~/.config/nvim/plug/plug-setting.vim
-

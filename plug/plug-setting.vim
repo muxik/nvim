@@ -9,16 +9,32 @@ set background=dark
 "---------------------------------"
 " lightline 
 "---------------------------------"
+
+function! CocCurrentFunction()
+    return get(b:, 'coc_current_function', '')
+endfunction
+
+function! LightlineGitBlame() abort
+  let blame = get(b:, 'coc_git_blame', '')
+  " return blame
+  return winwidth(0) > 120 ? blame : ''
+endfunction
+
 let g:lightline = {
       \ 'colorscheme': 'wombat',
-      \'active': {
+      \ 'active': {
       \   'left': [ [ 'mode', 'paste' ],
-      \             [ 'readonly', 'filename', 'modified', 'muxi_k' ] ]
+      \             [ 'cocstatus', 'currentfunction', 'readonly', 'filename', 'modified' ]],
+      \   'right': [ ['filetype', 'fileencoding', 'lineinfo', '%'], ['blame']]
       \ },
-      \ 'component': {
-      \   'muxi_k': 'Muxi_k'
+      \ 'component_function': {
+      \   'cocstatus': 'coc#status',
+      \   'currentfunction': 'CocCurrentFunction',
+      \   'blame': 'LightlineGitBlame',
       \ },
       \ }
+
+
 set laststatus=2
 
 
@@ -34,7 +50,7 @@ nmap <silent> b <Plug>(coc-ci-b)
 "---------------------------------"
 map <silent> <C-p> :Files<CR>
 map <silent> <C-b> :Buffers<CR>
-map <silent> <C-M-p> :Ag<CR>
+map <silent> <C-\> :Ag<CR>
 
 
 "---------------------------------"
