@@ -42,6 +42,8 @@ Plug 'Chiel92/vim-autoformat'
 " vim-devicons
 Plug 'ryanoasis/vim-devicons'
 
+"indentLine
+Plug 'Yggdroot/indentLine'
 call plug#end()
 
 

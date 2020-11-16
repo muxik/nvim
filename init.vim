@@ -16,5 +16,5 @@ source ~/.config/nvim/vim-setup.vim
 source ~/.config/nvim/vim-keymap.vim
 
 " # vim pulgins #
-source ~/.config/nvim/plug/plug-list.vim
-source ~/.config/nvim/plug/plug-setting.vim
+source ~/.config/nvim/vim-plug/plug-list.vim
+source ~/.config/nvim/vim-plug/plug-setting.vim
