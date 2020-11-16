@@ -42,8 +42,15 @@ Plug 'Chiel92/vim-autoformat'
 " vim-devicons
 Plug 'ryanoasis/vim-devicons'
 
-"indentLine
+" indentLine
 Plug 'Yggdroot/indentLine'
+
+" vim-surround map: cs 
+Plug 'tpope/vim-surround'
+
+" vim-commentary map: gc gcc gcap
+Plug 'tpope/vim-commentary'
+
 call plug#end()
 
 

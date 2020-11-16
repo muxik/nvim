@@ -10,7 +10,7 @@ set wildmenu
 set mouse=a
 set backspace=indent,eol,start
 let &t_ut=''
-set foldmethod=indent
+set foldmethod=manual
 set foldlevel=99
 set laststatus=2
 set autochdir
