@@ -28,6 +28,7 @@ map <silent> <LEADER>k <C-w>k
 map <silent> <LEADER>l <C-w>l
 
 
+
 "---------------------------------"
 " 分屏大小
 "---------------------------------"
@@ -73,6 +74,7 @@ noremap <silent><leader>0 10gt<cr>
 "---------------------------------"
 noremap <silent> W 5j
 noremap <silent> E 5k
+map <silent> <C-a> ^ 
 
 "---------------------------------"
 " 设置 CTRL+HJKL 移动光标

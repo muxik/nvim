@@ -57,7 +57,6 @@ map <silent> <C-\> :Ag<CR>
 " coc-translator
 "---------------------------------"
 
-
 " popup
 nmap <Leader>t <Plug>(coc-translator-p)
 vmap <Leader>t <Plug>(coc-translator-pv)
@@ -269,5 +268,6 @@ endfunction
 nmap <silent> <M-f> :Autoformat<CR>
 
 "---------------------------------"
-" vem-tabline
+" Tabular
 "---------------------------------"
+nmap <Leader>mm  :Tab /

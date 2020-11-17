@@ -51,8 +51,10 @@ Plug 'tpope/vim-surround'
 " vim-commentary map: gc gcc gcap
 Plug 'tpope/vim-commentary'
 
-call plug#end()
+" Tabular
+Plug 'godlygeek/tabular'
 
+call plug#end()
 
 "
 " coc.nvim
@@ -67,6 +69,7 @@ let g:coc_global_extensions = [
             \ 'coc-emmet',
             \ 'coc-phpls',
             \ 'coc-translator',
-            \ 'coc-ci'
+            \ 'coc-ci',
+            \ 'coc-html'
             \ ]
 
