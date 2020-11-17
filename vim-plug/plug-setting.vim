@@ -271,3 +271,15 @@ nmap <silent> <M-f> :Autoformat<CR>
 " Tabular
 "---------------------------------"
 nmap <Leader>mm  :Tab /
+
+"---------------------------------"
+" Ultisnips
+"---------------------------------"
+
+let g:UltiSnipsExpandTrigger       = "<c-x>"
+let g:UltiSnipsJumpForwardTrigger  = "<c-x>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-z>"
+let g:UltiSnipsSnippetDirectories  = ['~/.config/nvim/Ultisnips']
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"

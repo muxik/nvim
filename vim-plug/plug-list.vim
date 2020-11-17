@@ -60,6 +60,12 @@ Plug 'gcmt/wildfire.vim'
 " vim-visual-multi
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
+" ultisnips  
+Plug 'SirVer/ultisnips'
+ 
+" snippets
+Plug 'honza/vim-snippets'
+
 call plug#end()
 
 "
