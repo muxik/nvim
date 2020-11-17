@@ -54,6 +54,12 @@ Plug 'tpope/vim-commentary'
 " Tabular
 Plug 'godlygeek/tabular'
 
+" wildfire.vim
+Plug 'gcmt/wildfire.vim'
+
+" vim-visual-multi
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 call plug#end()
 
 "
