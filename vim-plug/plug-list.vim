@@ -66,6 +66,10 @@ Plug 'SirVer/ultisnips'
 " snippets
 Plug 'honza/vim-snippets'
 
+" markdown preview
+
+Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
+
 call plug#end()
 
 "
