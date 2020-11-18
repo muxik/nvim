@@ -74,7 +74,16 @@ noremap <silent><leader>0 10gt<cr>
 "---------------------------------"
 noremap <silent> W 5j
 noremap <silent> E 5k
-map <silent> <C-a> ^ 
+noremap <expr><c-s> col(".")==1?"$":"0"
+vnoremap <expr><c-s> col(".")==1?"$h":"0"
+
+"---------------------------------"
+" 范围选择
+"---------------------------------"
+noremap <silent> ,<c-a> GVgg
+inoremap <silent> ,<c-a> :noremap GVgg
+vnoremap <silent> ,<c-a> GVgg
+
 
 "---------------------------------"
 " 设置 CTRL+HJKL 移动光标
