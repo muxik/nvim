@@ -5,17 +5,14 @@
 
 call plug#begin()
 
-" gruvbox 配色
+
+" -- style -- "
+
+" gruvbox 
 Plug 'morhetz/gruvbox'
 
-"---------------------------------"
-" COC.nvim
-"---------------------------------"
 " lightline 状态栏
 Plug 'itchyny/lightline.vim'
-
-" Defx 文件浏览器
-Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " Defx 图标
 Plug 'kristijanhusak/defx-icons'
@@ -23,27 +20,32 @@ Plug 'kristijanhusak/defx-icons'
 " Defx Git Status
 Plug 'kristijanhusak/defx-git'
 
-" Coc.nvim
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" fzf.vim
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
-
 " vim-startify
 Plug 'mhinz/vim-startify'
-
-" vim-pairs
-Plug 'jiangmiao/auto-pairs'
-
-" vim-autoformat
-Plug 'Chiel92/vim-autoformat'
 
 " vim-devicons
 Plug 'ryanoasis/vim-devicons'
 
 " indentLine
 Plug 'Yggdroot/indentLine'
+
+" treesitter
+Plug 'nvim-treesitter/nvim-treesitter'
+
+
+" -- functional -- "
+
+" Defx 文件浏览器
+Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
+
+" Coc.nvim
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" fzf.vim
+" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+
+" vim-autoformat
+Plug 'Chiel92/vim-autoformat'
 
 " vim-surround map: cs 
 Plug 'tpope/vim-surround'
@@ -60,15 +62,15 @@ Plug 'gcmt/wildfire.vim'
 " vim-visual-multi
 Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 
-" ultisnips  
+" Ultisnips  
 Plug 'SirVer/ultisnips'
  
-" snippets
+" Snippets
 Plug 'honza/vim-snippets'
 
 " markdown preview
-
 Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
+
 
 call plug#end()
 
@@ -86,6 +88,11 @@ let g:coc_global_extensions = [
             \ 'coc-phpls',
             \ 'coc-translator',
             \ 'coc-ci',
-            \ 'coc-html'
+            \ 'coc-html',
+            \ 'coc-tabnine',
+            \ 'coc-lists',
+            \ 'coc-pairs',
+            \ 'coc-highlight',
+            \ 'coc-terminal',
+            \ 'coc-fzf-preview',
             \ ]
-

@@ -5,7 +5,6 @@
 colorscheme gruvbox
 set background=dark
 
-
 "---------------------------------"
 " lightline
 "---------------------------------"
@@ -46,12 +45,12 @@ nmap <silent> b <Plug>(coc-ci-b)
 
 
 "---------------------------------"
-" fzf.vim
+" fzf
 "---------------------------------"
-map <silent> <C-p> :Files<CR>
-map <silent> <C-b> :Buffers<CR>
-map <silent> <C-\> :Ag<CR>
-
+map <silent> ,fp :CocCommand fzf-preview.ProjectFiles<CR>
+map <silent> ,fb :CocCommand fzf-preview.Buffers<CR>
+map <silent> ,fl :CocCommand fzf-preview.Lines<CR>
+map <silent> ,fg :CocCommand fzf-preview.GitFiles<CR>
 
 "---------------------------------"
 " coc-translator
@@ -299,18 +298,18 @@ let g:mkdp_echo_preview_url = 0
 let g:mkdp_browserfunc = ''
 
 let g:mkdp_preview_options = {
-    \ 'mkit': {},
-    \ 'katex': {},
-    \ 'uml': {},
-    \ 'maid': {},
-    \ 'disable_sync_scroll': 0,
-    \ 'sync_scroll_type': 'middle',
-    \ 'hide_yaml_meta': 1,
-    \ 'sequence_diagrams': {},
-    \ 'flowchart_diagrams': {},
-    \ 'content_editable': v:false,
-    \ 'disable_filename': 0
-    \ }
+            \ 'mkit': {},
+            \ 'katex': {},
+            \ 'uml': {},
+            \ 'maid': {},
+            \ 'disable_sync_scroll': 0,
+            \ 'sync_scroll_type': 'middle',
+            \ 'hide_yaml_meta': 1,
+            \ 'sequence_diagrams': {},
+            \ 'flowchart_diagrams': {},
+            \ 'content_editable': v:false,
+            \ 'disable_filename': 0
+            \ }
 
 let g:mkdp_markdown_css = ''
 let g:mkdp_highlight_css = ''
@@ -318,3 +317,9 @@ let g:mkdp_port = ''
 let g:mkdp_page_title = '「${name}」'
 let g:mkdp_filetypes = ['markdown']
 
+
+"---------------------------------"
+" coc-terminal
+"---------------------------------"
+
+map ,tt :CocCommand terminal.Toggle<CR>
