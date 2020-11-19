@@ -1,5 +1,8 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/muxik/.config/nvim/vim-plug'
+let g:netrw_dirhist_1='/home/muxik/.config/nvim/Ultisnips'
+let g:netrw_dirhist_0='/home/muxik/.config/nvim/plugged'
 let g:netrw_dirhist_9='/home/muxik/.config/nvim/plugged/wildfire.vim/_assets'
 let g:netrw_dirhist_8='/home/muxik/Documents'
 let g:netrw_dirhist_7='/srv/nginx/htdocs'
@@ -7,6 +10,3 @@ let g:netrw_dirhist_6='/home/muxik/.config/nvim/vim-plug'
 let g:netrw_dirhist_5='/home/muxik/.config/nvim/plug'
 let g:netrw_dirhist_4='/srv/http/qzt991/application/exam/controller'
 let g:netrw_dirhist_3='/etc/modules-load.d'
-let g:netrw_dirhist_2='/srv/nginx/blog/application/admin/view/article'
-let g:netrw_dirhist_1='/srv/nginx/blog/application/admin/view'
-let g:netrw_dirhist_0='/srv/nginx/blog/application/admin'

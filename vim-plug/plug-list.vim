@@ -14,12 +14,6 @@ Plug 'morhetz/gruvbox'
 " lightline 状态栏
 Plug 'itchyny/lightline.vim'
 
-" Defx 图标
-Plug 'kristijanhusak/defx-icons'
-
-" Defx Git Status
-Plug 'kristijanhusak/defx-git'
-
 " vim-startify
 Plug 'mhinz/vim-startify'
 
@@ -35,14 +29,8 @@ Plug 'nvim-treesitter/nvim-treesitter'
 
 " -- functional -- "
 
-" Defx 文件浏览器
-Plug 'Shougo/defx.nvim', { 'do': ':UpdateRemotePlugins' }
-
 " Coc.nvim
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-
-" fzf.vim
-" Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 
 " vim-autoformat
 Plug 'Chiel92/vim-autoformat'
@@ -95,4 +83,5 @@ let g:coc_global_extensions = [
             \ 'coc-highlight',
             \ 'coc-terminal',
             \ 'coc-fzf-preview',
+            \ 'coc-explorer',
             \ ]
