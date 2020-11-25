@@ -84,4 +84,6 @@ let g:coc_global_extensions = [
             \ 'coc-terminal',
             \ 'coc-fzf-preview',
             \ 'coc-explorer',
+            \ 'coc-vetur',
+            \ "coc-eslint",
             \ ]
