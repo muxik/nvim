@@ -1,4 +1,5 @@
 {
+    "languageserver": {},
     "coc.preferences.extensionUpdateCheck": "never",
     "suggest.noselect": true,
     "suggest.enablePreview": false,
@@ -100,6 +101,6 @@
     "explorer.width": 28,
     "explorer.icon.enableNerdfont": true,
     "explorer.file.column.indent.indentLine": true,
-    "explorer.quitOnOpen": true,
+    "explorer.quitOnOpen": false,
     "explorer.openAction.for.directory": "cd"
 }

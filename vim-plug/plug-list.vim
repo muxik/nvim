@@ -57,8 +57,10 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 
 " markdown preview
-Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
+" Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app && npm install'  }
 
+" vim-go
+Plug 'fatih/vim-go'
 
 call plug#end()
 
@@ -71,7 +73,6 @@ let g:coc_global_extensions = [
             \ 'coc-vimlsp',
             \ 'coc-marketplace',
             \ 'coc-python',
-            \ 'coc-git',
             \ 'coc-emmet',
             \ 'coc-phpls',
             \ 'coc-translator',
@@ -82,8 +83,5 @@ let g:coc_global_extensions = [
             \ 'coc-pairs',
             \ 'coc-highlight',
             \ 'coc-terminal',
-            \ 'coc-fzf-preview',
             \ 'coc-explorer',
-            \ 'coc-vetur',
-            \ "coc-eslint",
             \ ]
